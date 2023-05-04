@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Walmart + Amazon Checker",
+    "version": "1.0",
+    "description": "Redirects highlighted text to both Walmart and Amazon. Made by Doppy",
+    "permissions": [
+      "activeTab",
+      "contextMenus"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "context_menus": {
+      "id": "textRedirector",
+      "title": "Walmart + Amazon Checker"
+    }
+  }
